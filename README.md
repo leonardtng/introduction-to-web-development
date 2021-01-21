@@ -6,11 +6,13 @@
 </p>
 
 <div align="center" style="margin: 30px 0;">
-  <img src="chapter1/hello-world-site/images/software-engineer.svg" width="500px" alt="Cover"/>
+  <a href="http://introduction-to-web-development.s3-website-ap-southeast-1.amazonaws.com/" target="_blank" rel="noopener">
+    <img src="chapter1/hello-world-site/images/software-engineer.svg" width="500px" alt="Cover"/>
+  </a>
 </div>
 
 <p align="center">
-  Prepared by: <a href="http://www.leonardtng.com/" target="_blank">Leonard Tng</a>
+  Prepared by: <a href="http://www.leonardtng.com/" target="_blank" rel="noopener">Leonard Tng</a>
 </p>
 
 ## 👍 How to Use This Repository
