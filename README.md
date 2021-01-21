@@ -2,13 +2,16 @@
   YNC Hacks: Introduction to Web Development
 </h1>
 <p align="center">
-  The repository for the semester-long workshop on web development that covers HTML, CSS, JS and React. This repository is under construction, updates are posted below
-</p>
-<p align="center">
-  Prepared by: <a href="http://fancy-counter.s3-website-ap-southeast-1.amazonaws.com/" target="_blank">Leonard Tng</a>
+  The repository for the semester-long workshop on web development that covers HTML, CSS, JS and React. This repository is under construction, updates are posted below.
 </p>
 
-<img src="src/assets/images/cover.gif" width="100%" alt="Cover"/>
+<div align="center" style="margin: 30px 0;">
+  <img src="chapter1/hello-world-site/images/software-engineer.svg" width="500px" alt="Cover"/>
+</div>
+
+<p align="center">
+  Prepared by: <a href="http://www.leonardtng.com/" target="_blank">Leonard Tng</a>
+</p>
 
 ## 👍 How to Use This Repository
 Workshop slides are found in the folders for the respective sessions, divided into chapters. The source code is free for you to use as reference or to build upon. Have fun!
