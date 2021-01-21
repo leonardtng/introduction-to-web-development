@@ -1,0 +1,11 @@
+html {
+  overflow-x: hidden;
+  text-align: center;
+  background-color: #232426;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.content-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
