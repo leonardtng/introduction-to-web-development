@@ -40,7 +40,7 @@ Workshop slides are found in the folders for the respective sessions, divided in
 
 ## 🚧 Updates
 
-- 27/01/2021: Created [GitHub Classroom][https://classroom.github.com/classrooms/78073476-ync-hacks-software-track-jan-apr-2021] for assignment submissions.
+- 27/01/2021: Created [GitHub Classroom](https://classroom.github.com/classrooms/78073476-ync-hacks-software-track-jan-apr-2021) for assignment submissions.
 - 21/01/2021: Created repository, added Chapter 1: What is the Web? contents.
 
 
