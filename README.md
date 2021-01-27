@@ -12,7 +12,7 @@
 </div>
 
 <p align="center" style="margin: 30px 0;">
-  View assignment submissions at <a href="https://classroom.github.com/classrooms/78073476-ync-hacks-software-track-jan-apr-2021" target="_blank" rel="noopener">
+  View assignment submissions at <a href="https://classroom.github.com/classrooms/78073476-introduction-to-web-development-jan-apr-2021" target="_blank" rel="noopener">
     GitHub Classroom
   </a>
 </p>
