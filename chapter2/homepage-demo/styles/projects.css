@@ -1,11 +1,11 @@
 .gallery {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .names {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
 }
 
