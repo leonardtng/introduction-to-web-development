@@ -21,4 +21,3 @@ The demo code for the first chapter project can be found here. The source code i
 ## ❓ Additional Notes
 
 Certain parts of the workshop are adapted from online sources, such as <a href="https://developer.mozilla.org/en-US/" target="_blank">Mozilla Development Network</a>. View the specific chapters for accreditation.
-
