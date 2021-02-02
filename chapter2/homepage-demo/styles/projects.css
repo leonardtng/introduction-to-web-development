@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  justify-content: space-between;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+span {
+  width: 20%;
+}
