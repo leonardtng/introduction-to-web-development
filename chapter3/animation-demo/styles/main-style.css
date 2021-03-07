@@ -1,0 +1,277 @@
+:root {
+  --div-height: 80px;
+  --div-width: 80px;
+}
+
+/* Expanding div on hover */
+
+.expand-horizontal-hover {
+  height: var(--div-height);
+  width: var(--div-width);
+  transition: width 1s;
+}
+
+.expand-horizontal-hover:hover {
+  width: 150px;
+}
+
+/* Div scaling on hover */
+
+.scaling-hover {
+  height: var(--div-height);
+  width: var(--div-width);
+  transition: transform 1s;
+}
+
+.scaling-hover:hover {
+  transform: scale(1.5);
+}
+
+/* Flip animation */
+
+.flipper-container {
+  perspective: 800px;
+}
+
+.flipper {
+  width: var(--div-width);
+  height: var(--div-height);
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+}
+
+.flip-front {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.flip-back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: #CC3333 !important;
+  transform: rotateY(-180deg);
+}
+
+.flipper:hover {
+  transform: rotateY(-180deg);
+}
+
+/* Fly in and out animation */
+
+.fly-up-container {
+  width: var(--div-width);
+  height: calc(var(--div-height) + 300px);
+}
+
+.fly-up-hover {
+  width: var(--div-width);
+  height: var(--div-height);
+  transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.fly-up-container:hover .fly-up-hover {
+  transform: translate(0, -300px);
+}
+
+/* Pulse animation */
+
+.pulse-animation {
+  height: var(--div-height);
+  width: var(--div-width);
+  box-shadow: 0 0 0 0 #12CBD680;
+  animation: pulse 1.5s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.85);
+  }
+  75% {
+    transform: scale(1);
+    /* Make box-shadow color transparent */
+    box-shadow: 0 0 0 15px #12CBD600;
+  }
+  100% {
+    transform: scale(0.85);
+    /* Make box-shadow color transparent */
+    box-shadow: 0 0 0 0 #12CBD600;
+  }
+}
+
+/* Simple spinning animation */
+
+.spinner {
+  height: var(--div-height);
+  width: var(--div-width);
+  animation: spin 0.75s linear 0s infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Spinner expanding at the same time */
+
+.spinner-expand {
+  height: var(--div-height);
+  width: var(--div-width);
+  animation: spin 0.75s linear 0s infinite;
+  transition: transform 0.5s ease;
+  transform: rotate(0deg);
+  animation: spin-expand 2s ease infinite;
+}
+
+@keyframes spin-expand {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(90deg) scale(2);
+  }
+  50% {
+    transform: rotate(180deg) scale(1);
+  }
+  75% {
+    transform: rotate(270deg) scale(2);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}
+
+/* Block that changes color */
+
+.color-swap {
+  height: var(--div-height);
+  width: var(--div-width);
+  animation: color-swapping 4s linear infinite;
+}
+
+@keyframes color-swapping {
+  0% {
+    background-color: #12CBD6;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: red;
+  }
+  75% {
+    background-color: green;
+  }
+  100% {
+    background-color: #12CBD6;
+  }
+}
+
+/* Delay scaling */
+
+.border-spinner {
+  animation: spin 0.75s linear 0s infinite;
+
+  /* Make spinner a circle */
+  border-radius: 50%;
+
+  /* Spinner dimensions */
+  width: 50px;
+  height: 50px;
+
+  /* Spinner thickness and color */
+  border: 5px solid #12CBD6;
+  border-top: 5px solid transparent;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Pulsing dots */
+
+.dots-container {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #12CBD6;
+}
+
+.dot-1 {
+  animation: dot-pulse .4s ease 0s infinite alternate;
+}
+.dot-2 {
+  animation: dot-pulse .4s ease .2s infinite alternate;
+}
+.dot-3 {
+  animation: dot-pulse .4s ease .4s infinite alternate;
+}
+
+@keyframes dot-pulse {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: .25;
+    transform: scale(.75);
+  }
+}
+
+/* Grid styling */
+
+html {
+  overflow-x: hidden;
+  background-color: #232426;
+  color: #ffffff;
+  font-family: 'Titillium Web', sans-serif;
+  text-align: justify;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: calc(100vh - 56px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50%;
+}
+
+header {
+  height: 56px;
+}
+
+#grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#grid-item #object {
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #12CBD6;
+}
