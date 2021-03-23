@@ -17,7 +17,7 @@ function App() {
       <div className="app-container">
         <h1>My Counter</h1>
         <div>
-          <div>The count: {count}</div>
+          <h2>The count: {count}</h2>
           <div className="button-group">
             <button onClick={handleUp}>Increase</button>
             <button onClick={handleDown}>Decrease</button>
