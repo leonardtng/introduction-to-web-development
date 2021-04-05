@@ -40,6 +40,7 @@ Workshop slides are found in the folders for the respective sessions, divided in
 
 ## 🚧 Updates
 
+- 06/04/2021: Added Chapter 5: Component-Based Development
 - 23/03/2021: Added Chapter 4: Logic With JavaScript and React
 - 08/03/2021: Added Chapter 3: Making Things Move
 - 02/02/2021: Added Chapter 2: The Web like an Essay contents.

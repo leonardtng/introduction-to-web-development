@@ -1,16 +1,9 @@
 import React, { useState } from 'react';
+import Button from './components/Button';
 import './App.css';
 
 const App = () => {
   const [count, setCount] = useState(0);
-  
-  const handleUp = () => {
-    setCount(count + 1);
-  };
-
-  const handleDown = () => {
-    setCount(count - 1);
-  };
 
   return (
     <div className="app">
@@ -19,8 +12,8 @@ const App = () => {
         <div>
           <h2>The count: {count}</h2>
           <div className="button-group">
-            <button onClick={handleUp}>Increase</button>
-            <button onClick={handleDown}>Decrease</button>
+            <Button direction={true} setCount={setCount} />
+            <Button direction={false} setCount={setCount} />
           </div>
         </div>
       </div>
