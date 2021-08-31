@@ -11,12 +11,6 @@
   </a>
 </div>
 
-<p align="center" style="margin: 30px 0;">
-  View assignment submissions at <a href="https://classroom.github.com/classrooms/78073476-introduction-to-web-development-jan-apr-2021" target="_blank" rel="noopener">
-    GitHub Classroom
-  </a>
-</p>
-
 <p align="center">
   Prepared by: <a href="http://www.leonardtng.com/" target="_blank" rel="noopener">Leonard Tng</a>
 </p>
@@ -40,11 +34,11 @@ Workshop slides are found in the folders for the respective sessions, divided in
 
 ## 🚧 Updates
 
+- 31/08/2021: Updated Chapter 1 content for second batch of workshop
 - 06/04/2021: Added Chapter 5: Component-Based Development
 - 23/03/2021: Added Chapter 4: Logic With JavaScript and React
 - 08/03/2021: Added Chapter 3: Making Things Move
 - 02/02/2021: Added Chapter 2: The Web like an Essay contents.
-- 27/01/2021: Created [GitHub Classroom](https://classroom.github.com/classrooms/78073476-ync-hacks-software-track-jan-apr-2021) for assignment submissions.
 - 21/01/2021: Created repository, added Chapter 1: What is the Web? contents.
 
 
