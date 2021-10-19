@@ -34,6 +34,7 @@ Workshop slides are found in the folders for the respective sessions, divided in
 
 ## 🚧 Updates
 
+- 19/10/2021: Updated Chapter 4 content for second batch of workshop
 - 07/09/2021: Updated Chapter 2 content for second batch of workshop
 - 31/08/2021: Updated Chapter 1 content for second batch of workshop
 - 06/04/2021: Added Chapter 5: Component-Based Development
